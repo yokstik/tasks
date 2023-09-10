@@ -15,4 +15,4 @@ for i in range(1, len(wc)):
 # Для наглядности
 one = ''.join(wc)
 print(f'Входные данные:   {input_str}')
-print(f'Выходные данные:   {one}')
+print(f'Выходные данные:  {one}')
