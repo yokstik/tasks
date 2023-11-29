@@ -7,7 +7,7 @@ def main():
     step = long - 1
     plus = 0
     while step > 0:
-        for i in range(1, step):
+        for i in range(1, step, 2):
             peace = [wc[i - 1], wc[i], wc[i + 1]]
             if peace == [0,0,0]:
                 print(f'Позиция -> {i}')
